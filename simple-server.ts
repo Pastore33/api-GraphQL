@@ -1,5 +1,5 @@
 import { ApolloServer, gql } from "apollo-server";
-import { randomUUID } from 'node:crypto'
+import { randomUUID } from 'node:crypto';
 
 const typeDefs = gql`
   type User {
